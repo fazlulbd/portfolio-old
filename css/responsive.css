@@ -1,0 +1,103 @@
+@media (max-width: 575.98px) { 
+    .main-manu .logo img{
+        width: 100px;
+    }
+    .main-manu ul li{
+        padding-bottom: 10px;
+    }
+    .main-manu ul li a::after{
+        bottom: -5px;
+    }
+    .main-manu ul li a:hover::after {
+        opacity: 1;
+        width: 20%;
+      }
+    .main-manu ul li a.active::after {
+    opacity: 1;
+    width: 20%;
+    }
+    #banner .bann-text {
+    padding-top: 150px;
+    }
+    #banner .bann-text h3{
+        font-size: 30px;
+    }
+    #banner .bann-text h2 {
+        font-size: 50px;
+    }
+    #banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.326), rgba(0, 0, 0, 0.452)), url(../images/fazlul1.jpg);
+        background-repeat: no-repeat;
+        background-position: 90%;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    #about .about-text {
+        width: 100%;
+        padding-left: 0px;
+    }
+    #service .service-item {
+        margin-top: 25px;
+    }
+    #skill .skill-text{
+        width: 100%;
+    }
+    #skill .skill-text h2{
+        width: 100%;
+        font-size: 23px;
+
+    }
+    #skill .progressbar{
+        margin-top: 50px;
+    }
+    #resume .resume-item {
+        padding: 20px 0;
+    }
+    #resume .resume-item .resume-text .bulletpoint {
+        width: 7px;
+        height: 7px;
+        border: 2px solid #f75023;
+      }
+
+    #resume .resume-item .resume-text .resume-inner-text {
+        margin-left: 20px;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    #portfolio .modal-area .modal-item {
+        width: 500px;
+    }
+    #portfolio .modal-area .modal-item .modal-text h3 {
+        font-size: 24px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    #resume .resume-item .resume-text::after {
+        height: 0;
+    }
+    #resume .resume-item .resume-text:last-child::after {
+        height: 0;
+    }
+    #resume .resume-item .resume-text .resume-inner-text h4 {
+        padding: 8px 0;
+        font-size: 18px;
+    }
+    #resume .resume-item .resume-text .resume-inner-text h5 {
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    #resume .resume-item .resume-text .resume-inner-text p {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    #contact .cont-text p {
+        font-size: 15px;
+        
+    }
+    #contact .cont-address .cont-box i{
+        font-size: 25px;
+    }
+
+}
