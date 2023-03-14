@@ -206,3 +206,25 @@
         margin-bottom: 20px;
     }
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main-manu ul li a::after{
+        bottom: -5px;
+    }
+    .main-manu ul li a:hover::after {
+        opacity: 1;
+        width: 10%;
+      }
+    .main-manu ul li a.active::after {
+    opacity: 1;
+    width: 10%;
+    }
+    #banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.326), rgba(0, 0, 0, 0.452)), url(../images/fazlul1.jpg);
+        background-position: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #service .service-item {
+        margin-top: 25px;
+    }
+ }
